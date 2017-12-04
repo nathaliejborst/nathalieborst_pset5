@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundAmountiv"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@android:drawable/checkbox_off_background" />
+
+    <TextView
+        android:id="@+id/amounttv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="12dp"
+        android:text="0"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/amounttv"
+        android:layout_alignBottom="@+id/amounttv"
+        android:layout_marginStart="3dp"
+        android:layout_toEndOf="@+id/backgroundAmountiv"
+        android:text="Grilled Steelhead Trout Sandwich"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/eurosigntv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/amounttv"
+            android:layout_alignBottom="@+id/amounttv"
+            android:layout_marginStart="205dp"
+            android:layout_toEndOf="@+id/backgroundAmountiv"
+            android:text="€"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/pricetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/amounttv"
+        android:layout_alignBottom="@+id/amounttv"
+        android:layout_marginStart="214dp"
+        android:layout_toEndOf="@+id/backgroundAmountiv"
+        android:text="€"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
